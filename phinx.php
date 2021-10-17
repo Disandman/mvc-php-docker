@@ -11,7 +11,7 @@ return
     ],
     'environments' => [
         'default_migration_table' => 'migrate',
-        'default_environment' => 'production',
+        'default_environment' => 'development',
         'development' => [
             'adapter' => $_ENV['DB_CONNECTION'],
             'host' => $_ENV['DB_HOST'],
