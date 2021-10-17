@@ -21,13 +21,7 @@ services:
             MYSQL_USER: ${DB_USERNAME}
             MYSQL_PASSWORD: ${DB_PASSWORD}
         env_file:
-            - ./.env
-     # Composer service
-    composer:
-        image: "composer"
-        volumes:
-            - "./:/app"
-        command: install       
+            - ./.env    
 
     # Nginx service
     nginx:
