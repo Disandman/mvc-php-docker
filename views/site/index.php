@@ -1,4 +1,4 @@
-<div style="font-size: 16px">
+<div style="font-size: 15px">
 <div class="list-group text-center">
             <h1>Приложение «Библиотека ВУЗа»:</h1>
             <hr>
